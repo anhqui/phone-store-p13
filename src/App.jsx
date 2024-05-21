@@ -1,9 +1,11 @@
+import Navbar from "./components/Navbar"
+
 function App() {
 
   return (
-    <div className="App">
-      <h1>Phone Store</h1>
-    </div>
+    <main>
+      <Navbar />
+    </main>
   )
 }
 
